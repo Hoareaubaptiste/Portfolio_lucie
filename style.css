@@ -1,96 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+/* CSS pour écran de smartphone */
+
+/* Réinitialisation de toutes les marges et rembourrages */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    background-image: url(Media/DJI_0640.JPG);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Utilisation d'une police de caractères plus petite */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
 }
 
-.carte{
-    width: 90%;
-    max-width: 440px;
-    color: aliceblue;
-    text-align: center;
-    padding: 50px 35px;
-    border: 1px solid rgb(255, 255, 255, 0.3);
-    background: rgba(150, 150, 150, 0.5);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
+/* Définition de la taille de la carte */
+.carte {
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(150, 150, 150, 0.5);
+  backdrop-filter: blur(5px);
 }
 
-.carte img{
-    width: 100%;
-    max-width: 300px;
-    border-radius: 50%;
-    margin: 0 auto;
+/* Utilisation d'une image plus petite */
+.carte img {
+  width: 200px;
+  border-radius: 50%;
 }
 
-.carte h2{
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 10px;
+/* Ajustement des tailles de police */
+.carte h2 {
+  font-size: 28px;
+  margin-top: 10px;
 }
 
-.carte p{
-    font-size: 16px;
-    margin: 10px auto;
-    max-width: 330px;
+.carte p {
+  font-size: 14px;
+  margin: 10px auto;
+  max-width: 300px;
 }
 
-.carte .reseau img{
-    width: 30px;
-    border-radius: 50%;
-    margin: 10px 5px;
-    transition: background 0.5s;
+.carte .reseau img {
+  width: 30px;
+  margin: 10px 5px;
 }
 
-.carte .reseau img:hover{
-    background:whitesmoke;
+.bouton {
+  font-size: 14px;
+  padding: 8px 20px;
 }
 
-.bouton{
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 900;
-    background: #fff;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    border-radius: 30px;
-    margin: 30px 0 10px;
+.footer {
+  padding: 10px;
 }
 
-.footer{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 30px 0px 0px 0px;
-    border: 1px solid rgb(0, 0, 0, 0.3);
+.footer img {
+  width: 20px;
+  margin-right: 5px;
 }
 
-.footer img{
-    width: 20px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-.footer p{
-    font-size: 10px;
-    font-weight: 600;
+.footer p {
+  font-size: 12px;
 }
