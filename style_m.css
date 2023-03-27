@@ -70,6 +70,7 @@
     padding: 10px 20px;
     border-radius: 30px;
     margin: 30px 0 10px;
+    transform: scale(1.5); /* Ajout de cette propriété */
 }
 
 .footer{
