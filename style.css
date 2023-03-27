@@ -43,7 +43,8 @@
 }
 
 .carte p{
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: 300;
     margin: 10px auto;
     max-width: 330px;
 }
