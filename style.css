@@ -39,13 +39,13 @@
 .carte h2{
     font-size: 40px;
     font-weight: 800;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 .carte p{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 300;
-    margin: 10px auto;
+    margin: 7px auto;
     max-width: 330px;
 }
 
